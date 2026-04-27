@@ -68,7 +68,7 @@ A change is recorded whenever the assessor value for a given AIN differs from th
 
 ![UDU vs control change rates](../tasks/figures/udu_vs_control_change_rates.png)
 
-*Annual revision rate (% of AINs with a year-over-year change) for three features. Blue band = mean ± 95% CI across the 10 highest-UDU-density tracts; orange dashed = UDU sample. The 2017 line marks the ADU policy shift.*
+*Annual revision rate (% of AINs with a year-over-year change) for three features. Blue band = mean ± 95% CI across the UDU-like tracts; orange dashed = UDU sample. The 2017 line marks the ADU policy shift.*
 
 The control CI is computed via a two-step aggregation: change rates are summed across change-type categories within each tract × year, then the mean and standard error are taken across tracts. This avoids inflating the CI by treating each category as an independent observation.
 
@@ -120,6 +120,5 @@ The control CI is computed via a two-step aggregation: change rates are summed a
 
 ## Notes
 
-- The tract-level CI is currently based on the **10 highest-UDU-density tracts** (a subset used for computational efficiency). A full 302-tract run will produce tighter and more representative confidence intervals.
 - Control parcels are filtered by **first-year use type**, so the composition is fixed at baseline and does not shift as parcels are reclassified over time.
 - The 2017 threshold corresponds to California's statewide ADU permitting reforms (AB 2299 / SB 1069), which substantially lowered barriers to legalizing existing informal units in LA.
