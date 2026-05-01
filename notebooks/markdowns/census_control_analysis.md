@@ -17,7 +17,7 @@ The control group is restricted to **multi-family parcels** (double/duplex, thre
 
 302 census tracts were identified as containing at least one UDU parcel using a spatial join between UDU geocoordinates and 2024 Census block geometries dissolved to the tract level.
 
-![UDU tract map](../tasks/figures/udu_tracts_map_v2.png)
+![UDU tract map](../tasks/figures/udu_tract_comparison.png)
 
 *Each dot marks a UDU parcel. The 302 highlighted tracts form the geographic boundary within which the control population is drawn.*
 
